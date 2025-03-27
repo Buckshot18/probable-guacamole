@@ -2,3 +2,6 @@
 Hello, world! 👋 Welcome to my GitHub repository. Here, you'll find my projects,
 scripts, and collaborations. Feel free to explore, contribute, or provide feedback.
 Let’s build something amazing together! 🚀
+
+GitHub profile link:
+https://github.com/Buckshot18
