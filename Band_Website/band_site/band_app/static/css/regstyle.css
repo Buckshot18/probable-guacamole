@@ -1,0 +1,59 @@
+/* Center all content on the page */
+body {
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Stacks elements vertically */
+    justify-content: center; /* Centers elements vertically */
+    align-items: center; /* Centers elements horizontally */
+    min-height: 100vh; /* Makes the body take up the full height of the viewport */
+    margin: 0; /* Removes default body margin */
+    font-family: Arial, sans-serif; /* Sets a clean font for the page */
+    background-image: url('images/logo_for_band.png');
+  }
+
+  /* Styling for the form heading */
+  h2 {
+    font-size: 2rem; /* Makes the heading more prominent */
+    margin-bottom: 20px; /* Adds spacing below the heading */
+    color: #1a73e8; /* Sets text color */
+  }
+
+  /* Styling for the form */
+  form {
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Stacks inputs vertically */
+    align-items: left; /* Centers form fields horizontally */
+    background-color: #7d7d7d67; /* Optional: Adds a background to the form */
+    border: 1px solid #000000; /* Optional: Adds a border around the form */
+    padding: 10px; /* Adds space inside the form */
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 1); /* Optional: Adds a subtle shadow */
+  }
+
+  /* Styling for the submit button */
+  button {
+    background-color: #1a73e8; /* Button color */
+    color: rgb(0, 0, 0); /* Button text color */
+    border: none; /* Removes default border */
+    padding: 10px 20px; /* Adds spacing inside the button */
+    border-radius: 5px; /* Rounds the button corners */
+    font-size: 1rem; /* Button text size */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+    margin-top: 10px; /* Adds spacing above the button */
+  }
+
+  button:hover {
+    background-color: #1a73e8; /* Darkens the button color on hover */
+  }
+
+  /* Styling for the "Already have an account?" link */
+  .back-link {
+    margin-top: 20px; /* Adds spacing above the link */
+    text-decoration: none; /* Removes underline */
+    color: #000000; /* Link color */
+    font-size: 1rem; /* Sets font size */
+  }
+
+  .back-link:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: #1558b3; /* Changes link color on hover */
+  }

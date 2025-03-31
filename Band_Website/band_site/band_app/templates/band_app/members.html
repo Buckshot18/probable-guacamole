@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{%static 'css/styles.css' %}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Band Members</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Keep your CSS link here -->
+</head>
+<body>
+  <h2>Band Members</h2>
+  <div class="members">
+  <ul>
+    {% for member in members %}
+    <li>{{ member.name }} - {{ member.instrument }}</li>
+    {% endfor %}
+  </ul>
+    </div>
+    <div class="btn">
+  <a href="{% url 'home' %}" class="back-link">Back to Home</a>
+    </div>
+</body>
+</html>

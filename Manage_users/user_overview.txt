@@ -1,0 +1,24 @@
+User Overview
+Total users: 3
+Total tasks: 5
+
+Username: admin
+Total tasks: 2
+Percentage of total tasks: 40.00%
+Percentage completed: 0.00%
+Percentage uncompleted: 100.00%
+Percentage overdue: 100.00%
+
+Username: jako
+Total tasks: 1
+Percentage of total tasks: 20.00%
+Percentage completed: 0.00%
+Percentage uncompleted: 100.00%
+Percentage overdue: 100.00%
+
+Username: google
+Total tasks: 2
+Percentage of total tasks: 40.00%
+Percentage completed: 0.00%
+Percentage uncompleted: 100.00%
+Percentage overdue: 50.00%

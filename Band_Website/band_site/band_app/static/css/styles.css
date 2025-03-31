@@ -1,0 +1,98 @@
+/* General styling for the body */
+body {
+  background-image: url('images/logo_for_band.png');
+  background-size: cover;
+  background-position: center -100px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Main header styling */
+h1 {
+  text-align: center;
+  color: #1a73e8;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 5em;
+  margin-top: 2%;
+  color: #1a73e8;
+}
+
+.members {
+  margin-top: 5%;
+  font-size: 1.5em;
+  color: #1a73e8;
+}
+/* Center the entire list container */
+ul {
+  position: absolute; /* For vertical and horizontal centering */
+  left: 50%; /* Horizontally centers the list */
+  transform: translate(-50%, -50%); /* Fine-tunes the centering */
+}
+  /* Style for the list items */
+li {
+  list-style-position: inside; /* Moves the dot inside the text area */
+  padding-left: 10px; /* Adds space between the bullet and the text */
+  font-size: 1.2rem; /* Optional: Adjusts text size */
+  color: #1a73e8;
+}
+
+
+/* Links styling */
+a {
+  text-decoration: none;
+  color: #1a73e8;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+a:hover {
+  color: #0056b3;
+  background-color: #e8f0fe;
+  border-radius: 5px;
+}
+/* Navigation link container */
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  padding: 0px;
+}
+.btn {
+  color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 7%;
+}
+
+/* Add spacing between content */
+body > * {
+  margin-bottom: 20px;
+}
+
+/* Style for labels of login page */
+label {
+  color: #1a73e8; /* Change to any desired color */
+  font-size: 1.1rem; /* Adjust the font size */
+  font-weight: bold; /* Make the text bold for emphasis */
+  margin-bottom: 5px; /* Add spacing between the label and input box */
+  display: block; /* Ensures the label is on its own line */
+}
+
+/* Center the form container */
+form {
+  display: flex; /* Enables flexbox for alignment */
+  flex-direction: column; /* Keeps elements stacked vertically */
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  margin: 0; /* Removes any default margins */
+  padding: 20px;
+
+}
